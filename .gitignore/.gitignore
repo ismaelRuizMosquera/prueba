@@ -1,0 +1,45 @@
+# Archivos de historial
+.Rhistoria
+.Rapp.history
+
+# Archivos de datos de sesión
+.RData
+
+# Archivos específicos del usuario
+.Ruserdata
+
+# Código de ejemplo en el proceso de construcción del paquete
+* -Ej.R
+
+# Archivos de salida de la compilación de R CMD
+/ * .tar.gz
+
+# Archivos de salida de la comprobación de R CMD
+/ * .Rcheck /
+
+# Archivos RStudio
+.Rproj.user /
+
+# viñetas producidas
+viñetas / * .html
+viñetas / * .pdf
+
+# Token OAuth2, consulte https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# directorios de caché predeterminados de markdown de knitr y R
+* _caché /
+/ cache /
+
+# Archivos temporales creados por R markdown
+* .utf8.md
+* .knit.md
+
+# R variables de entorno
+.Renviron
+
+# pkgdown site
+docs /
+
+# archivos temporales de traducción
+po / * ~
